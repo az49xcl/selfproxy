@@ -695,6 +695,8 @@ function overwriteRules(params) {
     const customRules = [
         // 在此添加自定义规则，优先级次于ad。例子：
         // "DOMAIN,baidu.com,DIRECT",
+        "DOMAIN-SUFFIX,mql5.com,DIRECT",
+        "DOMAIN-SUFFIX,trae.ai,🎯 节点选择"
     ];
 
     const nonipRules = [
